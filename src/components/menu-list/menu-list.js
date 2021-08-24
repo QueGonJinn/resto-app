@@ -5,6 +5,7 @@ import WithRestoService from '../hoc';
 import {menuLoaded, menuRequsted} from '../../actions';
 import Spinner from '../spinner';
 
+
 import './menu-list.scss';
 
 class MenuList extends Component {
