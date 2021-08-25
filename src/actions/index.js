@@ -5,14 +5,22 @@ const menuLoaded = (newMenu) => {
     };
 };
 
-const menuRequsted = () => {
+const menuRequested = () => {
     return {
         type: 'MENU_REQUSTED',
         
     };
 };
 
+const menuError = () => {
+    return {
+        type: 'MENU_ERROR',
+        
+    };
+};
+
 export {
     menuLoaded,
-    menuRequsted
+    menuRequested,
+    menuError
 };

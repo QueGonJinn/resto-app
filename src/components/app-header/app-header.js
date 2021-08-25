@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 const AppHeader = ({total}) => {
     return (
         <header className="header">
-            <Link to={'/'} className="header__link" href="#">
+            <Link to={'/'} className="header__link">
                 Menu
             </Link>
-            <Link to = "/cart" className="header__link" href="#">
+            <Link to = "/cart" className="header__link">
                 <img className="header__cart" src={cartIcon} alt="cart"></img>
                 Total: {total} $
             </Link>
